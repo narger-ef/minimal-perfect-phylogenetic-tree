@@ -3,6 +3,7 @@ This tool helps you to build a simple Perfect Phylogenetic tree given a binary m
 
 ## Input files:
 - Binary matrix in .csv format with ";" as delimiter (demonstration matrixes given in 'examples' folder)
+N.B. First row will be ignored (treated as header)
 
 ## How to run - Prepare:
 Running the tool is pretty easy, first of all install the dependencies:
