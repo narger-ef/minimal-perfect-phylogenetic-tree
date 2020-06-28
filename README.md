@@ -2,7 +2,7 @@
 This tool helps you to build a simple Perfect Phylogenetic tree given a binary matrix:
 
 ## Input files:
-- Binary matrix in .csv format with ";" as delimiter (demonstration matrixes given in 'examples' folder)__
+- Binary matrix in .csv format with ";" as delimiter (demonstration matrixes given in 'examples' folder) <br />
 N.B. First row will be ignored (treated as header)
 
 ## How to run - Prepare:
