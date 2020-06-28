@@ -13,7 +13,7 @@ Then install *graphwiz* that is used in order to plot the tree (assuming you are
 ```
 sudo apt install graphviz
 ```
-***
+
 ## How to run - Launch:
 After that, run the tool by using this command:
 ```
