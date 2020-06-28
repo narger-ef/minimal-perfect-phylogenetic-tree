@@ -10,10 +10,13 @@ Running the tool is pretty easy, first of all install the dependencies:
 ```
 pip install -r requirements.txt
 ```
-Then install *graphwiz* that is used in order to plot the tree (assuming you are running a Linux system:
+
+#Optional - Graphwiz
+You can install *graphwiz* that is used in order to plot the tree (assuming you are running a Linux system):
 ```
 sudo apt install graphviz
 ```
+Note that this is optional, if you will not install it the tree will only be generated in console, otherwise a file named *tree.png* will be created in the same directory of the script
 
 ## How to run - Launch:
 After that, run the tool by using this command:
