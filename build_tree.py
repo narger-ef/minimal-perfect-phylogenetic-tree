@@ -50,7 +50,7 @@ def generate_leaves(root):
         p = list(find_all(el.name, 'fine_'))
         for pos in p:
             pos += len('fine_')
-            Node(el.name[pos : pos + 1], parent = el)
+            Node(el.name[pos : pos + 2].replace('f',''), parent = el)
         el.name = "○"
         
 def build_tree(m):
@@ -88,6 +88,8 @@ def show_tree(tree):
     try:
         from anytree.exporter import DotExporter
         # graphviz needs to be installed for the next line!
+        
+        
         # there is a bug in anytree, all the nodes with the same name (in our case the '○' nodes)
         # are all treated as one, therefore we will change these names as backspace strings long 1, 2, etc.
 
