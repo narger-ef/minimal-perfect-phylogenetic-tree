@@ -4,7 +4,7 @@ This tool helps you to build a simple Perfect Phylogenetic tree given a binary m
 ## Input files:
 - Binary matrix in .csv format with ";" as delimiter (demonstration matrixes given in 'examples' folder)
 
-## How to run:
+## How to run - Prepare:
 Running the tool is pretty easy, first of all install the dependencies:
 ```
 pip install -r requirements.txt
@@ -13,7 +13,8 @@ Then install *graphwiz* that is used in order to plot the tree (assuming you are
 ```
 sudo apt install graphviz
 ```
-
+***
+## How to run - Launch:
 After that, run the tool by using this command:
 ```
 python build_tree.py *matrix-file.csv*
