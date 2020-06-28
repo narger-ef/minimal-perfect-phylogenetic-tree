@@ -11,7 +11,7 @@ Running the tool is pretty easy, first of all install the dependencies:
 pip install -r requirements.txt
 ```
 
-# Optional - Graphwiz
+### Optional - Graphwiz
 You can install *graphwiz* that is used in order to plot the tree (assuming you are running a Linux system):
 ```
 sudo apt install graphviz
