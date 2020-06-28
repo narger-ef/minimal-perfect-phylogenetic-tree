@@ -9,7 +9,10 @@ Running the tool is pretty easy, first of all install the dependencies:
 ```
 pip install -r requirements.txt
 ```
-This will install 'numpy' and 'anytree' packages.
+Then install *graphwiz* that is used in order to plot the tree (assuming you are running a Linux system:
+```
+sudo apt install graphviz
+```
 
 After that, run the tool by using this command:
 ```
