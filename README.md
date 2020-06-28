@@ -28,3 +28,19 @@ For example you can use a given matrix for demonstration:
 ```
 python build_tree.py examples/laminar.csv
 ```
+
+## Results
+Using an example matrix as input (examples/laminar.csv) the output in the console will be:
+```
+R
+├── ○
+│   ├── ○
+│   │   ├── ○
+│   │   │   └── 2
+│   │   └── 4
+│   └── 1
+└── ○
+    ├── ○
+    │   └── 5
+    └── 3
+```
